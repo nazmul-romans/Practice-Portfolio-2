@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 600px;
+    margin-bottom: 10px;
+}
+#hero-section{
+    background-image: url('image/hero-bg.png');
+    background-repeat: no-repeat;
+}
+#hero-section a{
+    text-transform: uppercase;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+.half-width p{
+    font-size: 18px;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 30px;
+}
+.anchor-button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(252, 9, 122);
+    padding: 10px 30px;
+    border-radius: 6%;
+}
+
+.half-width h2{
+    font-size: 50px;
+}
+.half-width span{
+    color: rgb(252, 9, 122);
+}
+
+#about-section{
+    background-image: url('image/about-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+#experience-section{
+    background-image: url('image/experience-bg.png');
+    background-repeat: no-repeat;
+}   
+#experience-section h1{
+    font-size: 45px;
+    text-align:center;
+}
+#experience-section div{
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.8);
+}
+#experience-section div:hover{
+    box-shadow: 5px 5px 30px grey;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin: 0 30px;
+    padding: 5px;
+}
+.one-third-width img{
+    width: 100%;
+}
+
+
+#footer-section{
+    background-image: url('image/footer-bg.png');
+    background-repeat: no-repeat;
+}
+#footer-section h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#footer-section h3{
+    text-align: center;
+}
+#footer-section h4{
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#footer-section p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#footer-section div{
+    color: #fff;
+    background-color: rgba(235, 37, 129, 0.7);
+    text-align: center;
+    width: 400px;
+    height: 130px;
+   padding: 15px 170px;
+   margin-left: 300px;
+   position: absolute;
+   border-radius: 3%;   
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+
